@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API_HOST =
   process.env.NODE_ENV === "production"
-    ? "https://doraeric-test.herokuapp.com"
+    ? "https://p09942a04-0329.herokuapp.com"
     : "";
 
 const instance = axios.create({

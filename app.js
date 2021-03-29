@@ -15,8 +15,8 @@ const API_DEV = {
 };
 const API_PROD = {
   scheme: "https",
-  host: "doraeric-test.herokuapp.com",
-  hostPort: "doraeric-test.herokuapp.com",
+  host: "p09942a04-0329.herokuapp.com",
+  hostPort: "p09942a04-0329.herokuapp.com",
 };
 const WEB_DEV = {
   scheme: "https",
@@ -26,8 +26,8 @@ const WEB_DEV = {
 };
 const WEB_PROD = {
   scheme: "https",
-  host: "doraeric-test.herokuapp.com",
-  hostPort: "doraeric-test.herokuapp.com",
+  host: "p09942a04-0329.herokuapp.com",
+  hostPort: "p09942a04-0329.herokuapp.com",
   path: "/demo/",
 };
 const API = process.env.NODE_ENV === "production" ? API_PROD : API_DEV;
